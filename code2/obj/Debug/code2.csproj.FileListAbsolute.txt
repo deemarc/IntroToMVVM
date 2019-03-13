@@ -1,0 +1,14 @@
+D:\New folder\MVVM\introToMVVM\code2\bin\Debug\code2.exe.config
+D:\New folder\MVVM\introToMVVM\code2\obj\Debug\code2.csprojResolveAssemblyReference.cache
+D:\New folder\MVVM\introToMVVM\code2\obj\Debug\MainWindow.g.cs
+D:\New folder\MVVM\introToMVVM\code2\obj\Debug\App.g.cs
+D:\New folder\MVVM\introToMVVM\code2\obj\Debug\code2_MarkupCompile.cache
+D:\New folder\MVVM\introToMVVM\code2\obj\Debug\code2_MarkupCompile.lref
+D:\New folder\MVVM\introToMVVM\code2\bin\Debug\code2.exe
+D:\New folder\MVVM\introToMVVM\code2\bin\Debug\code2.pdb
+D:\New folder\MVVM\introToMVVM\code2\obj\Debug\MainWindow.baml
+D:\New folder\MVVM\introToMVVM\code2\obj\Debug\code2.g.resources
+D:\New folder\MVVM\introToMVVM\code2\obj\Debug\code2.Properties.Resources.resources
+D:\New folder\MVVM\introToMVVM\code2\obj\Debug\code2.csproj.GenerateResource.Cache
+D:\New folder\MVVM\introToMVVM\code2\obj\Debug\code2.exe
+D:\New folder\MVVM\introToMVVM\code2\obj\Debug\code2.pdb

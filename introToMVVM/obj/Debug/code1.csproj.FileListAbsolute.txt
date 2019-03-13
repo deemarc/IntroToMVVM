@@ -1,0 +1,3 @@
+D:\New folder\MVVM\introToMVVM\introToMVVM\bin\Debug\introToMVVM.exe.config
+D:\New folder\MVVM\introToMVVM\introToMVVM\obj\Debug\introToMVVM.exe
+D:\New folder\MVVM\introToMVVM\introToMVVM\obj\Debug\introToMVVM.pdb
