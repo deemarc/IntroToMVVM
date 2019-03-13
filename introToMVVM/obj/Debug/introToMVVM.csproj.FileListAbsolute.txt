@@ -1,0 +1,14 @@
+D:\New folder\MVVM\introToMVVM\introToMVVM\bin\Debug\introToMVVM.exe.config
+D:\New folder\MVVM\introToMVVM\introToMVVM\bin\Debug\introToMVVM.exe
+D:\New folder\MVVM\introToMVVM\introToMVVM\bin\Debug\introToMVVM.pdb
+D:\New folder\MVVM\introToMVVM\introToMVVM\obj\Debug\introToMVVM.csprojResolveAssemblyReference.cache
+D:\New folder\MVVM\introToMVVM\introToMVVM\obj\Debug\MainWindow.g.cs
+D:\New folder\MVVM\introToMVVM\introToMVVM\obj\Debug\App.g.cs
+D:\New folder\MVVM\introToMVVM\introToMVVM\obj\Debug\introToMVVM_MarkupCompile.cache
+D:\New folder\MVVM\introToMVVM\introToMVVM\obj\Debug\introToMVVM_MarkupCompile.lref
+D:\New folder\MVVM\introToMVVM\introToMVVM\obj\Debug\MainWindow.baml
+D:\New folder\MVVM\introToMVVM\introToMVVM\obj\Debug\introToMVVM.g.resources
+D:\New folder\MVVM\introToMVVM\introToMVVM\obj\Debug\introToMVVM.Properties.Resources.resources
+D:\New folder\MVVM\introToMVVM\introToMVVM\obj\Debug\introToMVVM.csproj.GenerateResource.Cache
+D:\New folder\MVVM\introToMVVM\introToMVVM\obj\Debug\introToMVVM.exe
+D:\New folder\MVVM\introToMVVM\introToMVVM\obj\Debug\introToMVVM.pdb
