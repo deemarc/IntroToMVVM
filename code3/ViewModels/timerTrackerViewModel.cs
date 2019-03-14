@@ -1,38 +1,24 @@
 ﻿using System;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Windows.Input;
 using System.Windows.Threading;
 
-namespace code2
+namespace code3
 {
-    class timerTrackerViewModel: INotifyPropertyChanged
+    class timerTrackerViewModel: BaseViewModel
     {
-        public event PropertyChangedEventHandler PropertyChanged = (sender, e) => { };
         #region Public Properties
-        public bool btnStartEnable { get; private set; }
-        public bool btnStopEnable { get; private set; }
+        public bool btnStartEnable { get; set; }
+        public bool btnStopEnable { get; set; }
         public ICommand StartCommand { get; private set; }
         public ICommand StopCommand { get; private set; }
         public ICommand ClearCommand { get; private set; }
         public ICommand GetTimeCommand { get; private set; }
         public ICommand ClearTimeCommand { get; private set; }
-
-        private string _currentTime = "00:00:00";
-        public string CurrentTime
-        {
-            get
-            {
-                return _currentTime;
-            }
-            set
-            {
-                if (_currentTime == value)
-                    return;
-                _currentTime = value;
-                PropertyChanged(this, new PropertyChangedEventArgs(nameof(CurrentTime)));
-            }
-        }
+        public ObservableCollection<string> SavedTimeList { get; set; }
+        public string CurrentTime { get; set; }
 
         #endregion
 
@@ -48,9 +34,11 @@ namespace code2
             StopCommand = new RelayCommand(StopFunc);
             ClearCommand = new RelayCommand(ClearFunc);
             GetTimeCommand = new RelayCommand(GetTimeFunc);
-            ClearTimeCommand = new RelayCommand(ClearTimeFunction);
+            ClearTimeCommand = new RelayCommand(ClearTimeFunc);
+            SavedTimeList = new ObservableCollection<string>();
             btnStopEnable = false;
             btnStartEnable = true;
+            CurrentTime = "00:00:00";
 
         }
 
@@ -83,11 +71,11 @@ namespace code2
 
         private void GetTimeFunc()
         {
-            throw new NotImplementedException();
+            SavedTimeList.Add(CurrentTime);
         }
-        private void ClearTimeFunction()
+        private void ClearTimeFunc()
         {
-            throw new NotImplementedException();
+            SavedTimeList.Clear();
         }
 
 

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "code1", "introToMVVM\code1.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "code2", "code2\code2.csproj", "{D5EF9FC3-13B3-4BC6-A55E-914066978D91}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "code3", "code3\code3.csproj", "{94537EFF-0F7D-49E8-9BC6-617C37891845}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D5EF9FC3-13B3-4BC6-A55E-914066978D91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5EF9FC3-13B3-4BC6-A55E-914066978D91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5EF9FC3-13B3-4BC6-A55E-914066978D91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94537EFF-0F7D-49E8-9BC6-617C37891845}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94537EFF-0F7D-49E8-9BC6-617C37891845}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94537EFF-0F7D-49E8-9BC6-617C37891845}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94537EFF-0F7D-49E8-9BC6-617C37891845}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
